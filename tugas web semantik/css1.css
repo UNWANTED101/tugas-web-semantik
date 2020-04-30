@@ -1,0 +1,134 @@
+*{margin: 0; padding : 0;}
+body{width: 900px;
+margin: auto;
+background-color: rgb(37, 34, 34)}
+
+header {
+	width: 900px;
+	height: 250px;
+}
+header img {
+	width: 900px;
+	height: 200px;
+}
+ .nav {
+	width: 880px;
+	height: 25px;
+	background-color: black;
+	padding: 10px;
+}
+ .nav li{
+	list-style: circle;
+	float: left; 
+	margin-right:20px;
+	margin-top: 5px;
+	color: #fff;
+	font-family: sans-serif;
+}
+ .nav li a{
+	text-decoration: none;
+	color: #F0F8FF;
+	font-family: sans-serif;
+}
+ .nav li a:hover {
+	color: rgb(107, 18, 25);
+}
+
+
+
+.artikel{
+	width: 100%;
+	overflow: hidden;
+	background-color: #E6E6FA;
+	font-family: sans-serif;
+}
+.artikel h1 {
+	font-family: sans-serif;
+	text-align: center;
+}
+.artikel img{
+	width: 100px;
+	height: 200px;
+	float: left;
+	margin: 5px 5px 5px 5px;
+}
+.artikel p{
+	font-family: sans-serif;
+}
+
+
+.artikel .aside{
+	width: 420px;
+	float: left;
+	margin: 0px 10px 10px 10px;
+	background-color: maroon;
+}
+.artikel .aside{
+	color: white;
+}
+
+
+
+.artikel .subartikel{
+	width: 420px;
+	float: left;
+	margin: 0px 10px 10px 10px;
+	background-color: maroon;
+}
+.artikel .subartikel li{
+	margin: 0px 10px 10px 10px;
+}
+.artikel .subartikel a{
+	color: grey;
+}
+.artikel .subartikel p{
+	font-family: sans-serif;
+	color: white;
+	margin: 5px 20px 10px 20px;
+	text-align: justify;
+}
+.artikel .subartikel h3{
+	color: white;
+	margin: 20px 20px 0px 20px;
+}
+
+.artikel .subartikel li a:hover{
+	color: lightgreen;
+}
+
+
+.artikel .subartikel .dom h3{
+	margin: 100px 5px  0 5px;
+	background-color: lightblue;
+	color: maroon;
+	text-align: center;
+	}
+.artikel .subartikel .dom button{
+	margin: 0 0 10px 20px;
+	width: 100px;
+	height: 50px;
+	background-color:gold;
+	font-size: 20px;
+}
+.artikel .subartikel .dom button:hover{
+	background-color:lightgreen;
+}
+.artikel .subartikel .dom p{
+	color: white;
+	margin: 20px 20px 0px 20px;
+}
+
+
+
+.foot {
+	width: 900px;
+	height: 80px;
+	background-color: maroon;
+		margin: 0px 10px 10px 0px;
+	
+}
+.foot p{
+	font-family: sans-serif;
+	color: white;
+	margin: 0 0 5px 10px;
+}
