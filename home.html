@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>INI WEB SEMANTIK</title>
+	<link href="css1.css" type="text/css" rel="stylesheet">
+  
+</head>
+<body>
+    <header>
+        <img src="gambar/iroonblood.png" width="150" height="45" border="0">
+        <nav class="nav">
+            <li><a href="link-ke-home">Home</a></li>
+            <li><a href="link-ke-about">About</a></li>
+            <li><a href="link-ke-mana-gitu">kemana gitu</a></li>
+            <li><a href="pertanyaan?">ask?</a></li>
+        </nav>
+    </header>
+ 
+<main>
+    <div class="artikel" id="artikel">
+    
+        <h1>Kumpulan article</h1>
+
+        <div class="subartikel" id="subartikel">
+            <h3>Kriegsmarine</h3>
+            <p>&emsp; Merupakan angkatan laut Jerman Nazi dari tahun 1935 sampai 1945. Kriegsmarine menggantikan Angkatan Laut 
+                Kekaisaran Jerman dari Kekaisaran Jerman (1871–1918) dan Reichsmarine periode antar-perang (1919–1935) 
+                dari Republik Weimar. Kriegsmarine adalah salah satu dari tiga cabang resmi, bersama dengan Heer (Angkatan Darat) 
+                dan Luftwaffe (Angkatan Udara) dari Wehrmacht, angkatan bersenjata Jerman dari 1933 hingga 1945.</p>
+            
+            <li><a href="https://id.wikipedia.org/wiki/Kriegsmarine">link wikipedia Kriegsmarine</a></li>
+            
+            <h3>Blitzkrieg</h3>  
+            <p>&emsp; Merupakan sebuah metode perang secara cepat yang diujungtombaki 
+                oleh infantri dengan kendaraan lapis baja, didukung oleh dukungan udara jarak dekat. 
+                Metode ini dengan cepat merusak garis pertahanan lawan dan kemudian mengacaukan barisan pertahanan, 
+                dengan menggunakan unsur kecepatan dan kejutan untuk mengelilingi mereka. Dengan penggunaan berbagai manuver, 
+                Blitzkrieg berusaha merusak keseimbangan lawan dengan membuatnya kesulitan merespon perubahan front yang terus menerus, 
+                dan akhirnya diakhiri dengan Vernichtungsschlacht, pertempuran pemusnahan.</p>
+            
+            <li><a href="https://id.wikipedia.org/wiki/Blitzkrieg">link wikipedia Blitzkrieg</a></li>
+            
+            <div class="dom" id="dom"> 
+                <h3>Artikel selanjutnya</h3>
+                <p> jangan di klick</p> <br>
+                <button onclick="displayResult()">button ini</button>
+
+                <script>
+                function displayResult() {
+                document.getElementById("subartikel").style.color = "white";
+                var para = document.createElement("h3");
+                var node = document.createTextNode("belum ada artikel baru");
+                para.appendChild(node);
+ 
+                var element = document.getElementById("subartikel");
+                element.appendChild(para);
+                }
+                </script>
+            </div>
+        </div>
+        
+        <div class="aside">
+            <br>
+            <hr>
+            <h1 style="text-align: center;"> Biodata </h1>
+            <hr>
+            <div class"gambar">
+                <img src="gambar/ironblood2.png" width="150" height="45" border="0">
+            </div>
+            <p>Nama &emsp; &emsp;&nbsp; &nbsp;: Haritz Hadikusumo</p>
+            <p>Alamat &nbsp; &emsp; &nbsp;&nbsp;&nbsp;: Tangerang Selatan, Ciputat</p>
+            <p>Alamat email : haritz942013@gamil.com</p>
+        </div> 
+    </div>
+</main>
+
+<foot>
+    <div class="foot">
+        <p>property of UNWANTED</p> 
+        <p>free copy write, copy paste, copy copyan</p>
+        <p>you can find me at @haritzh_k <br></p>
+        
+    </div>
+    
+</foot>
+</body>
+</html>
